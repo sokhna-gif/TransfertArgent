@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Easy Money</string>
+    <string name="login">LOGIN</string>
+    <string name="pwd">PASSWORD</string>
+    <string name="btnSeconnecter">Se Connecter</string>
+    <string name="btnEnvoi">Envoi</string>
+    <string name="btnRetrait">Retrait</string>
+    <string name="btnSeDeconnecter">Se Deconnecter</string>
+    <string name="btnHisto">HISTORIQUE</string>
+    <string name="infoEmetteur">Info Emetteur</string>
+    <string name="prenom">Prenom</string>
+    <string name="nom">Nom</string>
+    <string name="tel">Telephone</string>
+    <string name="infoRecepteur">Info Emetteur</string>
+    <string name="tyPiece">Type de piece(CIN,PASSPORT ...)</string>
+    <string name="numPiece">Numero Piece</string>
+    <string name="montant">Montant</string>
+    <string name="app_envoi">Envoyer</string>
+    <string name="code">Code(4578845)</string>
+    <string name="app_retrait">Retirer</string>
+</resources>

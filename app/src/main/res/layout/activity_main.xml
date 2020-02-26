@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradain_back"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/loginUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/textColor"
+            android:layout_marginBottom="30px"
+            android:text="@string/login" />
+        <EditText
+            android:id="@+id/pwdUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/textColor"
+            android:layout_marginBottom="30px"
+            android:text="@string/pwd" />
+
+        <Button
+            android:id="@+id/btnSeconnecter"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btnSeconnecter"
+            android:textColor="@color/colorPrimary"
+            android:background="@color/colorAccent"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
